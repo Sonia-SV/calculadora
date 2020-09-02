@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Fjalla+One&family=Lexend+Peta&family=Londrina+Solid&display=swap"
+      rel="stylesheet"
+    />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Calculadora de Salario de actores de Audiovisual</h1>
+      <h2>Según la tabla salarial de la unión de Actores</h2>
+      <div class="container__info">
+        <h3>Información sobre tu contrato</h3>
+        <form class="container__info__form">
+          <label for="produccion"
+            >Tipo de producción:
+            <select id="produccion" name="produccion">
+              <option value="todos">Elige una opcion</option>
+              <option value="cine">Cine</option>
+              <option value="television">Televisión</option>
+              <option value="publicidad">Publicidad</option>
+              <option value="bajoPresupuesto">Bajo presupuesto</option>
+            </select></label
+          >
+          <label for="papel"
+            >Tipo de papel:
+            <select id="papel" name="papel">
+              <option value="todos">Elige una opcion</option>
+              <option value="protagonista">Protagonista</option>
+              <option value="secundario">Secundario</option>
+              <option value="reparto">Reparto</option>
+              <option value="pequeñasPartes">Pequeñas partes</option>
+            </select></label
+          >
+          <label for="contrato"
+            >Tipo de contrato:
+            <select id="contrato" name="contrato">
+              <option value="sesion" class="contrato-sesion">Sesión</option>
+              <option value="semana" class="contrato-semana">Semana</option>
+              <option value="mes" class="contrato-mes">Mes</option>
+            </select></label
+          >
+          <label for="duracion"
+            >Duración del contrato:
+            <input class="numberInput" id="duracion" type="number" name="duracion" />
+          </label>
+        </form>
+        <button class="container__button">Reiniciar</button>
+      </div>
+      <section class="result">
+        <h3>Tu salario:</h3>
+        <div>
+          <div>
+            <h4>Tu salario <span class="tipo-contrato">parcial</span>:</h4>
+            <p class="resultado-parcial">-</p>
+          </div>
+          <div>
+            <h4>Tu salario total:</h4>
+            <p class="resultado-total">-</p>
+            <small class="warning">(Introduce al menos tipo de produccion y papel para poder calcular tu salario)</small>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

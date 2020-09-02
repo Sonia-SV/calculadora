@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  font-family: $font-main;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  background-color: rgb(84, 126, 252);
+  height: 100vh;
+  align-items: center;
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    grid-row-gap: 15px;
+    grid-column-gap: 9px;
+    font-size: large;
+
+    &__form {
+      display: flex;
+      flex-direction: row;
+      label {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+      }
+    }
+  }
+  &__button {
+    width: 90px;
+    border-radius: 50px;
+  }
+}
+.result {
+  text-align: center;
+  height: 200px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.503);
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 30px;
+  grid-row-gap: 15px;
+  font-size: large;
+}

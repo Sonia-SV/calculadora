@@ -1,0 +1,68 @@
+{
+  "cine": {
+    "protagonista": {
+      "sesion": "790,07",
+      "semana": "3570,43",
+      "mes": "9514,51"
+    },
+    "secundario": {
+      "sesion": "575,35",
+      "semana": "2558,81",
+      "mes": "7.140,84"
+    },
+    "reparto": {
+      "sesion": "431,51 ",
+      "semana": "1.785,20 ",
+      "mes": "5.058,06"
+    },
+    "pequeñasPartes": {
+      "sesion": "172,60",
+      "semana": "714,08",
+      "mes": "2.023,23"
+    }
+  },
+  "television": {
+    "protagonista": {
+      "sesion": "723,46",
+      "semana": "3.225,97",
+      "mes": "8.602,32"
+    },
+    "secundario": {
+      "sesion": "516,77 ",
+      "semana": "2.298,06",
+      "mes": "6.413,16"
+    },
+    "reparto": {
+      "sesion": "413,39",
+      "semana": "1.710,21 ",
+      "mes": "4.845,62"
+    },
+    "pequeñasPartes": {
+      "sesion": "165,33 ",
+      "semana": "684,07 ",
+      "mes": "1.938,25"
+    }
+  },
+  "bajoPresupuesto": {
+    "protagonista": {
+      "sesion": "586,04 ",
+      "semana": "2.648,31",
+      "mes": "7.062,20"
+    },
+    "secundario": {
+      "sesion": "479,48 ",
+      "semana": "2.132,33 ",
+      "mes": "5.950,68"
+    },
+    "reparto": {
+      "sesion": "372,93 ",
+      "semana": "1.541,03",
+      "mes": "4.371,21"
+    },
+    "pequeñasPartes": {
+      "sesion": "149,17",
+      "semana": "616,40",
+      "mes": "1.748,48"
+    }
+  }
+}
